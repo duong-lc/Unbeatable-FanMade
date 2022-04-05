@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc258848bfa54d82bb9539a169e4d7f4, type: 3}
+  m_Name: MainCharacterData_ScriptableObject
+  m_EditorClassIdentifier: 
+  AttackAirBlockIntro: BeatCombatAirBlockIntro
+  AttackAirBlockLoop: BeatCombatAirBlockLoop
+  AttackGroundBlockIntro: BeatCombatGroundBlockIntro
+  AttackGroundBlockLoop: BeatCombatGroundBlockLoop
+  Attack1: BeatCombatAttack01
+  Attack2: BeatCombatAttack02
+  Attack3: BeatCombatAttack03
+  Attack4: BeatCombatAttack04
+  Attack5: BeatCombatAttack05
+  Attack6: BeatCombatAttack06
+  Attack7: BeatCombatAttack07
+  Attack8: BeatCombatAttack08
+  Attack9: BeatCombatAttack09
+  Attack10: BeatCombatAttack10
+  Hurt1: BeatCombatHurt01
+  Hurt2: BeatCombatHurt02
+  Hurt3: BeatCombatHurt03
+  Jump1: BeatCombatJump01
+  JumpLand1: BeatCombatJump01Land
+  Jump2: BeatCombatJump02
+  JumpLand2: BeatCombatJump02Land
+  Idle: BeatCombatIdle
+  Intro: BeatCombatIntro
+  topRight: {x: 1.1, y: 1.9, z: 0}
+  bottomRight: {x: 1.1, y: -1, z: 0}
+  topLeft: {x: -1.1, y: 1.9, z: 0}
+  bottomLeft: {x: -1.1, y: -1, z: 0}
+  groundHitOffset: 0.5
+  gravityScale: 0.45
+  gravityAcceleration: 9.8
+  jumpForce: 16
+  dampRatio: 0.65
+  dampSecondsInterval: 0.012
+  heightLimitMarginOfError: 0.3
+  marginOverloadMultiplierEntry: 6
+  cooldownGap: 0.09
+  airFreezeMultiplier: 1
+  lerpTimeDash: 0.06

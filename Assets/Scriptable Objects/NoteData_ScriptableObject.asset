@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 831b586dcad34d4cba6c4ed44cf2b63b, type: 3}
+  m_Name: NoteData_ScriptableObject
+  m_EditorClassIdentifier: 
+  groundKnockBackVector: {x: 2.8, y: 2.3, z: 0}
+  groundFallVector: {x: 0.5, y: -8.8, z: 0}
+  airKnockBackVector: {x: 3, y: 1.5, z: 0}
+  airFallVector: {x: 0.5, y: -8, z: 0}
+  moveEase1: 6
+  moveEase2: 2
+  time1: 0.17
+  time2: 0.35
+  rotateEase1: 6
+  rotateEase2: 2
+  rotateAmount1: 45
+  rotateAmount2: 95
+  DefaultNoteGroundRun: DefaultNoteGroundRun
+  DefaultNoteGroundHit01: DefaultNoteGroundHit01
+  DefaultNoteGroundHit02: DefaultNoteGroundHit02
+  DefaultNoteAirRun: DefaultNoteAirRun
+  DefaultNoteAirHit01: DefaultNoteAirHit01
+  DefaultNoteAirHit02: DefaultNoteAirHit02
+  SliderNoteFrontRun: SliderNoteFrontRun
+  SliderNoteFrontBlock: SliderNoteFrontBlock
+  SliderNoteFrontHit01: SliderNoteFrontHit01
+  SliderNoteFrontHit02: SliderNoteFrontHit02

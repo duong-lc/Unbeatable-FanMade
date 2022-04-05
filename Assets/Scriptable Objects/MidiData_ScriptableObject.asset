@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c14612186eb0bd34a81bc1710c57b016, type: 3}
+  m_Name: MidiData_ScriptableObject
+  m_EditorClassIdentifier: 
+  songClip: {fileID: 8300000, guid: b873965e549f28349b17ee27671c7f7c, type: 3}
+  songDelayInSeconds: 0
+  marginOfError: 0.15
+  inputDelayInMilliseconds: 0
+  fileLocation: soulswap.mid
+  noteTime: 1.1
+  noteSpawnX: 12
+  noteTapX: -0.3
+  noteNormalPrefab: {fileID: 4391052628040044703, guid: 94b3020b301476341aa1880965b31882, type: 3}
+  noteSliderPrefab: {fileID: 5356283141332693219, guid: acfb8a0d56961a042a772cffee9248a6, type: 3}
+  hitPointTopRight: {x: 2.25, y: 3, z: 0}
+  hitPointBottomRight: {x: 2.25, y: -0.5, z: 0}
+  hitPointTopLeft: {x: -2.25, y: 3, z: 0}
+  hitPointBottomLeft: {x: -2.25, y: -0.5, z: 0}
+  noteRestrictionNormalNote: 0
+  noteRestrictionSliderNote: 2
+  inputTopRight: 105
+  laneOctave_TopRight: 2
+  inputBottomRight: 106
+  laneOctave_BottomRight: 1
+  inputTopLeft: 101
+  laneOctave_TopLeft: 4
+  inputBottomLeft: 102
+  laneOctave_BottomLeft: 3

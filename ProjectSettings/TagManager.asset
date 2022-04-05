@@ -6,6 +6,10 @@ TagManager:
   tags:
   - UpperLane
   - LowerLane
+  - TopRight_Lane
+  - BottomRight_Lane
+  - TopLeft_Lane
+  - BottomLeft_Lane
   layers:
   - Default
   - TransparentFX
@@ -42,4 +46,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Note
+    uniqueID: 3224805583
+    locked: 0
+  - name: Character
+    uniqueID: 3734058983
     locked: 0

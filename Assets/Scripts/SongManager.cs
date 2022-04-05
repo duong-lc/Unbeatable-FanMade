@@ -6,6 +6,7 @@ using Melanchall.DryWetMidi.Interaction;
 using System.IO;
 using UnityEngine.Networking;
 using System;
+using UnityEngine.Serialization;
 
 ///<summary>
 ///this class handles music player, data extract of midi files, speed of notes on screen
@@ -13,28 +14,25 @@ using System;
 public class SongManager : MonoBehaviour
 {
     #region Variables
+    //Scriptable Object
+    [SerializeField] private SO_Midi_Data _midiData; 
+    
     //public TMPro.TextMeshPro currTime;
     public static SongManager Instance; //instance variable to be accessed by other classes
     public AudioSource audioSource; //audio source to play the song
-    public Lane[] lanes;//array of lanes
-    //public LaneSlider[] sliderLanes;//array of slider lanes 
-    public float songDelayInSeconds; //delay the song after a certain amount of time
-    public double marginOfError;//how much off the player can press the note and still consider to be a hit (in seconds)
-    public int inputDelayInMilliseconds; //it's the issue with the keyboard and we need to have input delay 
-   
-    public string fileLocation; //file location for the MIDI file
-    public float noteTime; //how much time the note is going to be on the screen
-    public float noteSpawnX; //the X position for the note to be spawned at
-    public float noteTapX; //the X position where the player should press the note
+    // public Lane[] lanes;//array of lanes
+    // //public LaneSlider[] sliderLanes;//array of slider lanes 
+    // public float songDelayInSeconds { private set; get; } //delay the song after a certain amount of time
+    // public double marginOfError;//how much off the player can press the note and still consider to be a hit (in seconds)
+    // public int inputDelayInMilliseconds; //it's the issue with the keyboard and we need to have input delay 
+    //
+    // public string fileLocation; //file location for the MIDI file
+    // public float noteTime; //how much time the note is going to be on the screen
+    // public float noteSpawnX; //the X position for the note to be spawned at
+    // public float noteTapX; //the X position where the player should press the note
 
-    public float noteDespawnX
-    {
-        get
-        {
-            return noteTapX - (noteSpawnX-noteTapX);
-        }
-    }
-    public static MidiFile midiFile;//static ref to midi file, this is where it will load on run
+    //[SerializeField] private float NoteDeSpawnX { get; private set; } = _soMidiData.noteDespawnX;
+    public static MidiFile MidiFile;//static ref to midi file, this is where it will load on run
 
     #endregion
 
@@ -60,11 +58,13 @@ public class SongManager : MonoBehaviour
     private IEnumerator ReadFromWebsite()
     {
         //requesting unity web request the midi file
-        using (UnityWebRequest www = UnityWebRequest.Get(Application.streamingAssetsPath + "/" + fileLocation)){
+        using (UnityWebRequest www = UnityWebRequest.Get(Application.streamingAssetsPath + "/" + _midiData.fileLocation)){
             yield return www.SendWebRequest();
             
             //checking to see if there's any network errors
+#pragma warning disable CS0618
             if(www.isNetworkError || www.isHttpError)
+#pragma warning restore CS0618
             {
                 Debug.LogError(www.error);
             }
@@ -76,8 +76,8 @@ public class SongManager : MonoBehaviour
                 byte[] results = www.downloadHandler.data;
                 using (var stream = new MemoryStream(results))
                 {
-                    midiFile = MidiFile.Read(stream);
-                    GetDataFromMidi();
+                    MidiFile = MidiFile.Read(stream);
+                    LaneMaster.Instance.CompileDataFromMidi(MidiFile);
                 }
             }
         }
@@ -88,32 +88,30 @@ public class SongManager : MonoBehaviour
     /// </summary>
     private void ReadFromFile()
     {
-        midiFile = MidiFile.Read(Application.streamingAssetsPath + "/" + fileLocation);
-        GetDataFromMidi();
+        MidiFile = MidiFile.Read(Application.streamingAssetsPath + "/" + _midiData.fileLocation);
+        //convert midi data to necessary data for rhythm game, append them all to list
+        LaneMaster.Instance.CompileDataFromMidi(MidiFile);
+        Invoke(nameof(StartSong), _midiData.songDelayInSeconds);
     }
 
 
-    /// <summary>
-    /// Using the Midi data after the the Midi file has been loaded
-    /// - Make an array that uses the note datas from the midi file
-    /// - Invoke function start song (have delay to start song)
-    /// </summary>
-    public void GetDataFromMidi()
-    {
-        var notes = midiFile.GetNotes(); //getting ICollection of the notes
-        var array = new Melanchall.DryWetMidi.Interaction.Note[notes.Count];//making a new array to access the notes
-        notes.CopyTo(array, 0);//copy the note data from ICollection to the array
-
-        foreach (var lane in lanes)
-            lane.SetTimeStamps(array);
-            
-        // foreach (var sliderLane in sliderLanes)
-        //     sliderLane.SetTimeStamps(array);
-
-
-        //StartCoroutine(StartSong(songDelayInSeconds));
-        Invoke("StartSong", songDelayInSeconds);
-    }
+    
+    // public void GetDataFromMidi()
+    // {
+    //     var notes = MidiFile.GetNotes(); //getting ICollection of the notes
+    //     var array = new Melanchall.DryWetMidi.Interaction.Note[notes.Count];//making a new array to access the notes
+    //     notes.CopyTo(array, 0);//copy the note data from ICollection to the array
+    //
+    //     foreach (var lane in lanes)
+    //         lane.SetTimeStamps(array);
+    //         
+    //     // foreach (var sliderLane in sliderLanes)
+    //     //     sliderLane.SetTimeStamps(array);
+    //
+    //
+    //     //StartCoroutine(StartSong(songDelayInSeconds));
+    //    
+    // }
 
 
     ///<summary>
