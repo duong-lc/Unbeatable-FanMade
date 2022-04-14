@@ -1,0 +1,296 @@
+﻿18:35:11.649 |I| Core                           | RequestBuilder thread:7        | MsBuild process with Id = 4184
+18:35:11.650 |I| Core                           | RequestBuilder thread:7        | MsBuild location = C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\MSBuild.exe
+18:35:11.650 |I| Core                           | RequestBuilder thread:7        | 
+18:35:11.650 |I| Core                           | RequestBuilder thread:7        | Start ControllerTask...
+18:35:11.650 |I| Core                           | RequestBuilder thread:7        | Detected version: 16.11
+18:35:11.651 |I| Core                           | RequestBuilder thread:7        | Creating SocketWire with port = 6086
+18:35:11.679 |I| Core                           | RequestBuilder thread:7        | Create protocol...
+18:35:11.719 |I| Core                           | RequestBuilder thread:7        | Create MsBuildModel and advise for new sessions...
+18:35:11.742 |I| Core                           | RequestBuilder thread:7        | Subscribe for changes...
+18:35:11.742 |I| Core                           | RequestBuilder thread:7        | Setup process watchdog...
+18:35:11.743 |I| Core                           | RequestBuilder thread:7        | Run dispatcher...
+18:35:11.744 |I| ProcessWatchdog                | WatchParentPid:14292:11        | Monitoring parent process PID:14292
+18:35:11.806 |I| Core                           | RequestBuilder thread:7        | Get protocol session 'RdProjectModelSession'
+18:35:11.811 |I| Core                           | RequestBuilder thread:7        | Msbuild session 'ProjectModelSessionHost' created
+18:35:11.862 |I| ProjectModel                   | RequestBuilder thread:7        | Reloading 51 project(s) in 1 node(s)...
+18:35:11.873 |I| Build                          | :6                             | Build started.
+18:35:12.789 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'UnityEngine.TestRunner.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.791 |I| BuildQueue                     | RequestBuilder thread:7        | Build immediately: UnityEngine.TestRunner.csproj
+18:35:12.793 |I| Build                          | RequestBuilder thread:7        | Start build 'UnityEngine.TestRunner.csproj' with 1 target frameworks
+18:35:12.795 |I| Build                          | RequestBuilder thread:7        | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:12.798 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'Unity.Mathematics.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.798 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'Unity.2D.Animation.Triangle.Runtime.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.798 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'Unity.Timeline.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.798 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'UnityEngine.UI.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.798 |I| BuildQueue                     | RequestBuilder thread:7        | Build immediately: UnityEngine.UI.csproj
+18:35:12.798 |I| Build                          | RequestBuilder thread:7        | Start build 'UnityEngine.UI.csproj' with 1 target frameworks
+18:35:12.799 |I| Build                          | RequestBuilder thread:7        | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:12.799 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'Cinemachine.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.799 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'Unity.TextMeshPro.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.799 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'Unity.2D.Animation.Runtime.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.799 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'Assembly-CSharp.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.800 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'Unity.2D.IK.Runtime.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.800 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'Unity.2D.SpriteShape.Runtime.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.800 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'Unity.2D.PixelPerfect.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.800 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'Unity.2D.Common.Runtime.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.800 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'Unity.InternalAPIEngineBridge.001.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.800 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'UnityEditor.TestRunner.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.800 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'Unity.PlasticSCM.Editor.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.800 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'UnityEditor.UI.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.800 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'Unity.Timeline.Editor.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.800 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'Unity.VisualStudio.Editor.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.800 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'com.unity.cinemachine.editor.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.800 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'Unity.2D.Psdimporter.Editor.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.800 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'Unity.2D.Animation.Editor.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.800 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'Unity.TextMeshPro.Editor.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.801 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'Unity.2D.SpriteShape.Editor.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.801 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'Unity.CollabProxy.Editor.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.801 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'PsdPlugin.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.801 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'Unity.2D.Path.Editor.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.801 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'Unity.Rider.Editor.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.801 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'Unity.2D.IK.Editor.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.801 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'Unity.2D.Sprite.Editor.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.801 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'Unity.2D.Tilemap.Editor.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.801 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'Unity.2D.PixelPerfect.Editor.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.801 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'Unity.VSCode.Editor.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.801 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'Unity.2D.Common.Editor.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.802 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'Unity.Mathematics.Editor.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.802 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'Unity.InternalAPIEditorBridge.001.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.802 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'JetBrains.Frontend.2020.2.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.802 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'UnityEngine.TestRunner.Player.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.802 |I| BuildQueue                     | RequestBuilder thread:7        | Build immediately: UnityEngine.TestRunner.Player.csproj
+18:35:12.802 |I| Build                          | RequestBuilder thread:7        | Start build 'UnityEngine.TestRunner.Player.csproj' with 1 target frameworks
+18:35:12.803 |I| Build                          | RequestBuilder thread:7        | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:12.803 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'Unity.Mathematics.Player.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.803 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'Unity.2D.Animation.Triangle.Runtime.Player.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.803 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'Unity.Timeline.Player.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.803 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'UnityEngine.UI.Player.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.803 |I| BuildQueue                     | RequestBuilder thread:7        | Build immediately: UnityEngine.UI.Player.csproj
+18:35:12.803 |I| Build                          | RequestBuilder thread:7        | Start build 'UnityEngine.UI.Player.csproj' with 1 target frameworks
+18:35:12.804 |I| Build                          | RequestBuilder thread:7        | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:12.804 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'Cinemachine.Player.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.804 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'Unity.TextMeshPro.Player.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.804 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'Unity.2D.Animation.Runtime.Player.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.804 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'Assembly-CSharp.Player.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.805 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'Unity.2D.IK.Runtime.Player.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.805 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'Unity.2D.SpriteShape.Runtime.Player.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.805 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'Unity.2D.PixelPerfect.Player.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.805 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'Unity.2D.Common.Runtime.Player.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.805 |I| ProjectModel                   | RequestBuilder thread:7        | Project 'Unity.InternalAPIEngineBridge.001.Player.csproj' has load-time sensitive targets: XamlMarkupCompilePass1
+18:35:12.942 |I| Build                          | :19                            | Finish build part [1/1] for project 'UnityEngine.TestRunner.csproj': Success
+18:35:12.942 |I| Build                          | :19                            | Finish build project 'UnityEngine.TestRunner.csproj': Success
+18:35:12.982 |I| Build                          | :15                            | Finish build part [1/1] for project 'UnityEngine.UI.Player.csproj': Success
+18:35:12.982 |I| Build                          | :15                            | Finish build project 'UnityEngine.UI.Player.csproj': Success
+18:35:12.991 |I| BuildQueue                     | :19                            | Build layer: UnityEditor.TestRunner.csproj
+18:35:12.991 |I| Build                          | :19                            | Start build 'UnityEditor.TestRunner.csproj' with 1 target frameworks
+18:35:12.992 |I| Build                          | :19                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:13.026 |I| Build                          | :3                             | Finish build part [1/1] for project 'UnityEngine.TestRunner.Player.csproj': Success
+18:35:13.026 |I| Build                          | :3                             | Finish build project 'UnityEngine.TestRunner.Player.csproj': Success
+18:35:13.188 |I| Build                          | :3                             | Finish build part [1/1] for project 'UnityEditor.TestRunner.csproj': Success
+18:35:13.188 |I| Build                          | :3                             | Finish build project 'UnityEditor.TestRunner.csproj': Success
+18:35:13.244 |I| Build                          | :15                            | Finish build part [1/1] for project 'UnityEngine.UI.csproj': Success
+18:35:13.244 |I| Build                          | :15                            | Finish build project 'UnityEngine.UI.csproj': Success
+18:35:13.255 |I| BuildQueue                     | :15                            | Build layer: UnityEditor.UI.csproj, Unity.Mathematics.Player.csproj, Unity.2D.Animation.Triangle.Runtime.Player.csproj, Unity.Timeline.Player.csproj, Unity.TextMeshPro.Player.csproj, Unity.2D.IK.Runtime.Player.csproj, Unity.2D.PixelPerfect.Player.csproj, Unity.2D.Common.Runtime.Player.csproj, Unity.InternalAPIEngineBridge.001.Player.csproj
+18:35:13.255 |I| Build                          | :15                            | Start build 'UnityEditor.UI.csproj' with 1 target frameworks
+18:35:13.256 |I| Build                          | :15                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:13.256 |I| Build                          | :15                            | Start build 'Unity.Mathematics.Player.csproj' with 1 target frameworks
+18:35:13.256 |I| Build                          | :15                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:13.256 |I| Build                          | :15                            | Start build 'Unity.2D.Animation.Triangle.Runtime.Player.csproj' with 1 target frameworks
+18:35:13.257 |I| Build                          | :15                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:13.257 |I| Build                          | :15                            | Start build 'Unity.Timeline.Player.csproj' with 1 target frameworks
+18:35:13.257 |I| Build                          | :15                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:13.258 |I| Build                          | :15                            | Start build 'Unity.TextMeshPro.Player.csproj' with 1 target frameworks
+18:35:13.258 |I| Build                          | :15                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:13.258 |I| Build                          | :15                            | Start build 'Unity.2D.IK.Runtime.Player.csproj' with 1 target frameworks
+18:35:13.259 |I| Build                          | :15                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:13.259 |I| Build                          | :15                            | Start build 'Unity.2D.PixelPerfect.Player.csproj' with 1 target frameworks
+18:35:13.259 |I| Build                          | :15                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:13.259 |I| Build                          | :15                            | Start build 'Unity.2D.Common.Runtime.Player.csproj' with 1 target frameworks
+18:35:13.260 |I| Build                          | :15                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:13.260 |I| Build                          | :15                            | Start build 'Unity.InternalAPIEngineBridge.001.Player.csproj' with 1 target frameworks
+18:35:13.260 |I| Build                          | :15                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:13.309 |I| Build                          | :13                            | Finish build part [1/1] for project 'UnityEditor.UI.csproj': Success
+18:35:13.309 |I| Build                          | :13                            | Finish build project 'UnityEditor.UI.csproj': Success
+18:35:13.322 |I| BuildQueue                     | :13                            | Build layer: Unity.Mathematics.csproj, Unity.2D.Animation.Triangle.Runtime.csproj, Unity.Timeline.csproj, Unity.TextMeshPro.csproj, Unity.2D.IK.Runtime.csproj, Unity.2D.PixelPerfect.csproj, Unity.2D.Common.Runtime.csproj, Unity.InternalAPIEngineBridge.001.csproj, Unity.PlasticSCM.Editor.csproj, Unity.VisualStudio.Editor.csproj, Unity.CollabProxy.Editor.csproj, PsdPlugin.csproj, Unity.2D.Path.Editor.csproj, Unity.Rider.Editor.csproj, Unity.2D.Sprite.Editor.csproj, Unity.2D.Tilemap.Editor.csproj, Unity.VSCode.Editor.csproj, JetBrains.Frontend.2020.2.csproj
+18:35:13.322 |I| Build                          | :13                            | Start build 'Unity.Mathematics.csproj' with 1 target frameworks
+18:35:13.322 |I| Build                          | :13                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:13.322 |I| Build                          | :13                            | Start build 'Unity.2D.Animation.Triangle.Runtime.csproj' with 1 target frameworks
+18:35:13.323 |I| Build                          | :13                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:13.323 |I| Build                          | :13                            | Start build 'Unity.Timeline.csproj' with 1 target frameworks
+18:35:13.323 |I| Build                          | :13                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:13.323 |I| Build                          | :13                            | Start build 'Unity.TextMeshPro.csproj' with 1 target frameworks
+18:35:13.324 |I| Build                          | :13                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:13.324 |I| Build                          | :13                            | Start build 'Unity.2D.IK.Runtime.csproj' with 1 target frameworks
+18:35:13.325 |I| Build                          | :13                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:13.325 |I| Build                          | :13                            | Start build 'Unity.2D.PixelPerfect.csproj' with 1 target frameworks
+18:35:13.325 |I| Build                          | :13                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:13.325 |I| Build                          | :13                            | Start build 'Unity.2D.Common.Runtime.csproj' with 1 target frameworks
+18:35:13.326 |I| Build                          | :13                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:13.326 |I| Build                          | :13                            | Start build 'Unity.InternalAPIEngineBridge.001.csproj' with 1 target frameworks
+18:35:13.326 |I| Build                          | :13                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:13.326 |I| Build                          | :13                            | Start build 'Unity.PlasticSCM.Editor.csproj' with 1 target frameworks
+18:35:13.327 |I| Build                          | :13                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:13.327 |I| Build                          | :13                            | Start build 'Unity.VisualStudio.Editor.csproj' with 1 target frameworks
+18:35:13.328 |I| Build                          | :13                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:13.328 |I| Build                          | :13                            | Start build 'Unity.CollabProxy.Editor.csproj' with 1 target frameworks
+18:35:13.328 |I| Build                          | :13                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:13.328 |I| Build                          | :13                            | Start build 'PsdPlugin.csproj' with 1 target frameworks
+18:35:13.329 |I| Build                          | :13                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:13.329 |I| Build                          | :13                            | Start build 'Unity.2D.Path.Editor.csproj' with 1 target frameworks
+18:35:13.329 |I| Build                          | :13                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:13.329 |I| Build                          | :13                            | Start build 'Unity.Rider.Editor.csproj' with 1 target frameworks
+18:35:13.330 |I| Build                          | :13                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:13.330 |I| Build                          | :13                            | Start build 'Unity.2D.Sprite.Editor.csproj' with 1 target frameworks
+18:35:13.334 |I| Build                          | :13                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:13.334 |I| Build                          | :13                            | Start build 'Unity.2D.Tilemap.Editor.csproj' with 1 target frameworks
+18:35:13.335 |I| Build                          | :13                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:13.335 |I| Build                          | :13                            | Start build 'Unity.VSCode.Editor.csproj' with 1 target frameworks
+18:35:13.335 |I| Build                          | :13                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:13.335 |I| Build                          | :13                            | Start build 'JetBrains.Frontend.2020.2.csproj' with 1 target frameworks
+18:35:13.336 |I| Build                          | :13                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:13.357 |I| Build                          | :13                            | Finish build part [1/1] for project 'Unity.InternalAPIEngineBridge.001.Player.csproj': Success
+18:35:13.358 |I| Build                          | :13                            | Finish build project 'Unity.InternalAPIEngineBridge.001.Player.csproj': Success
+18:35:13.415 |I| Build                          | :3                             | Finish build part [1/1] for project 'JetBrains.Frontend.2020.2.csproj': Success
+18:35:13.415 |I| Build                          | :3                             | Finish build project 'JetBrains.Frontend.2020.2.csproj': Success
+18:35:13.458 |I| Build                          | :3                             | Finish build part [1/1] for project 'Unity.VSCode.Editor.csproj': Success
+18:35:13.458 |I| Build                          | :3                             | Finish build project 'Unity.VSCode.Editor.csproj': Success
+18:35:13.514 |I| Build                          | :15                            | Finish build part [1/1] for project 'Unity.2D.Tilemap.Editor.csproj': Success
+18:35:13.514 |I| Build                          | :15                            | Finish build project 'Unity.2D.Tilemap.Editor.csproj': Success
+18:35:13.571 |I| Build                          | :3                             | Finish build part [1/1] for project 'Unity.2D.Sprite.Editor.csproj': Success
+18:35:13.571 |I| Build                          | :3                             | Finish build project 'Unity.2D.Sprite.Editor.csproj': Success
+18:35:13.588 |I| BuildQueue                     | :3                             | Build layer: Unity.InternalAPIEditorBridge.001.csproj
+18:35:13.588 |I| Build                          | :3                             | Start build 'Unity.InternalAPIEditorBridge.001.csproj' with 1 target frameworks
+18:35:13.588 |I| Build                          | :3                             | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:13.635 |I| Build                          | :15                            | Finish build part [1/1] for project 'Unity.Rider.Editor.csproj': Success
+18:35:13.637 |I| Build                          | :15                            | Finish build project 'Unity.Rider.Editor.csproj': Success
+18:35:13.694 |I| Build                          | :27                            | Finish build part [1/1] for project 'Unity.InternalAPIEditorBridge.001.csproj': Success
+18:35:13.694 |I| Build                          | :27                            | Finish build project 'Unity.InternalAPIEditorBridge.001.csproj': Success
+18:35:13.754 |I| Build                          | :25                            | Finish build part [1/1] for project 'Unity.2D.Path.Editor.csproj': Success
+18:35:13.754 |I| Build                          | :25                            | Finish build project 'Unity.2D.Path.Editor.csproj': Success
+18:35:13.799 |I| Build                          | :25                            | Finish build part [1/1] for project 'PsdPlugin.csproj': Success
+18:35:13.799 |I| Build                          | :25                            | Finish build project 'PsdPlugin.csproj': Success
+18:35:13.865 |I| Build                          | :4                             | Finish build part [1/1] for project 'Unity.CollabProxy.Editor.csproj': Success
+18:35:13.865 |I| Build                          | :4                             | Finish build project 'Unity.CollabProxy.Editor.csproj': Success
+18:35:13.908 |I| Build                          | :27                            | Finish build part [1/1] for project 'Unity.VisualStudio.Editor.csproj': Success
+18:35:13.908 |I| Build                          | :27                            | Finish build project 'Unity.VisualStudio.Editor.csproj': Success
+18:35:13.964 |I| Build                          | :27                            | Finish build part [1/1] for project 'Unity.PlasticSCM.Editor.csproj': Success
+18:35:13.964 |I| Build                          | :27                            | Finish build project 'Unity.PlasticSCM.Editor.csproj': Success
+18:35:14.007 |I| Build                          | :4                             | Finish build part [1/1] for project 'Unity.InternalAPIEngineBridge.001.csproj': Success
+18:35:14.007 |I| Build                          | :4                             | Finish build project 'Unity.InternalAPIEngineBridge.001.csproj': Success
+18:35:14.056 |I| Build                          | :27                            | Finish build part [1/1] for project 'Unity.2D.Common.Runtime.csproj': Success
+18:35:14.056 |I| Build                          | :27                            | Finish build project 'Unity.2D.Common.Runtime.csproj': Success
+18:35:14.061 |I| BuildQueue                     | :27                            | Build layer: Unity.2D.Common.Editor.csproj
+18:35:14.061 |I| Build                          | :27                            | Start build 'Unity.2D.Common.Editor.csproj' with 1 target frameworks
+18:35:14.062 |I| Build                          | :27                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:14.097 |I| Build                          | :27                            | Finish build part [1/1] for project 'Unity.2D.PixelPerfect.csproj': Success
+18:35:14.101 |I| Build                          | :27                            | Finish build project 'Unity.2D.PixelPerfect.csproj': Success
+18:35:14.105 |I| BuildQueue                     | :27                            | Build layer: Unity.2D.PixelPerfect.Editor.csproj
+18:35:14.106 |I| Build                          | :27                            | Start build 'Unity.2D.PixelPerfect.Editor.csproj' with 1 target frameworks
+18:35:14.106 |I| Build                          | :27                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:14.150 |I| Build                          | :27                            | Finish build part [1/1] for project 'Unity.2D.Common.Editor.csproj': Success
+18:35:14.150 |I| Build                          | :27                            | Finish build project 'Unity.2D.Common.Editor.csproj': Success
+18:35:14.203 |I| Build                          | :25                            | Finish build part [1/1] for project 'Unity.2D.PixelPerfect.Editor.csproj': Success
+18:35:14.203 |I| Build                          | :25                            | Finish build project 'Unity.2D.PixelPerfect.Editor.csproj': Success
+18:35:14.243 |I| Build                          | :24                            | Finish build part [1/1] for project 'Unity.2D.IK.Runtime.csproj': Success
+18:35:14.243 |I| Build                          | :24                            | Finish build project 'Unity.2D.IK.Runtime.csproj': Success
+18:35:14.293 |I| Build                          | :13                            | Finish build part [1/1] for project 'Unity.TextMeshPro.csproj': Success
+18:35:14.293 |I| Build                          | :13                            | Finish build project 'Unity.TextMeshPro.csproj': Success
+18:35:14.315 |I| BuildQueue                     | :13                            | Build layer: Unity.TextMeshPro.Editor.csproj
+18:35:14.316 |I| Build                          | :13                            | Start build 'Unity.TextMeshPro.Editor.csproj' with 1 target frameworks
+18:35:14.316 |I| Build                          | :13                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:14.351 |I| Build                          | :13                            | Finish build part [1/1] for project 'Unity.Timeline.csproj': Success
+18:35:14.351 |I| Build                          | :13                            | Finish build project 'Unity.Timeline.csproj': Success
+18:35:14.357 |I| BuildQueue                     | :13                            | Build layer: Cinemachine.csproj, Unity.Timeline.Editor.csproj, Cinemachine.Player.csproj
+18:35:14.357 |I| Build                          | :13                            | Start build 'Cinemachine.csproj' with 1 target frameworks
+18:35:14.358 |I| Build                          | :13                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:14.358 |I| Build                          | :13                            | Start build 'Unity.Timeline.Editor.csproj' with 1 target frameworks
+18:35:14.358 |I| Build                          | :13                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:14.358 |I| Build                          | :13                            | Start build 'Cinemachine.Player.csproj' with 1 target frameworks
+18:35:14.359 |I| Build                          | :13                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:14.397 |I| Build                          | :25                            | Finish build part [1/1] for project 'Unity.TextMeshPro.Editor.csproj': Success
+18:35:14.397 |I| Build                          | :25                            | Finish build project 'Unity.TextMeshPro.Editor.csproj': Success
+18:35:14.448 |I| Build                          | :26                            | Finish build part [1/1] for project 'Cinemachine.Player.csproj': Success
+18:35:14.448 |I| Build                          | :26                            | Finish build project 'Cinemachine.Player.csproj': Success
+18:35:14.509 |I| Build                          | :15                            | Finish build part [1/1] for project 'Unity.Timeline.Editor.csproj': Success
+18:35:14.509 |I| Build                          | :15                            | Finish build project 'Unity.Timeline.Editor.csproj': Success
+18:35:14.559 |I| Build                          | :15                            | Finish build part [1/1] for project 'Cinemachine.csproj': Success
+18:35:14.559 |I| Build                          | :15                            | Finish build project 'Cinemachine.csproj': Success
+18:35:14.568 |I| BuildQueue                     | :15                            | Build layer: com.unity.cinemachine.editor.csproj
+18:35:14.568 |I| Build                          | :15                            | Start build 'com.unity.cinemachine.editor.csproj' with 1 target frameworks
+18:35:14.569 |I| Build                          | :15                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:14.606 |I| Build                          | :24                            | Finish build part [1/1] for project 'Unity.2D.Animation.Triangle.Runtime.csproj': Success
+18:35:14.606 |I| Build                          | :24                            | Finish build project 'Unity.2D.Animation.Triangle.Runtime.csproj': Success
+18:35:14.653 |I| Build                          | :24                            | Finish build part [1/1] for project 'com.unity.cinemachine.editor.csproj': Success
+18:35:14.653 |I| Build                          | :24                            | Finish build project 'com.unity.cinemachine.editor.csproj': Success
+18:35:14.705 |I| Build                          | :6                             | Finish build part [1/1] for project 'Unity.Mathematics.csproj': Success
+18:35:14.706 |I| Build                          | :6                             | Finish build project 'Unity.Mathematics.csproj': Success
+18:35:14.712 |I| BuildQueue                     | :6                             | Build layer: Unity.2D.Animation.Runtime.csproj, Unity.2D.SpriteShape.Runtime.csproj, Unity.Mathematics.Editor.csproj, Unity.2D.Animation.Runtime.Player.csproj, Unity.2D.SpriteShape.Runtime.Player.csproj
+18:35:14.712 |I| Build                          | :6                             | Start build 'Unity.2D.Animation.Runtime.csproj' with 1 target frameworks
+18:35:14.712 |I| Build                          | :6                             | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:14.713 |I| Build                          | :6                             | Start build 'Unity.2D.SpriteShape.Runtime.csproj' with 1 target frameworks
+18:35:14.713 |I| Build                          | :6                             | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:14.713 |I| Build                          | :6                             | Start build 'Unity.Mathematics.Editor.csproj' with 1 target frameworks
+18:35:14.714 |I| Build                          | :6                             | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:14.714 |I| Build                          | :6                             | Start build 'Unity.2D.Animation.Runtime.Player.csproj' with 1 target frameworks
+18:35:14.721 |I| Build                          | :6                             | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:14.722 |I| Build                          | :6                             | Start build 'Unity.2D.SpriteShape.Runtime.Player.csproj' with 1 target frameworks
+18:35:14.722 |I| Build                          | :6                             | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:14.751 |I| Build                          | :6                             | Finish build part [1/1] for project 'Unity.2D.Common.Runtime.Player.csproj': Success
+18:35:14.751 |I| Build                          | :6                             | Finish build project 'Unity.2D.Common.Runtime.Player.csproj': Success
+18:35:14.795 |I| Build                          | :4                             | Finish build part [1/1] for project 'Unity.2D.SpriteShape.Runtime.Player.csproj': Success
+18:35:14.795 |I| Build                          | :4                             | Finish build project 'Unity.2D.SpriteShape.Runtime.Player.csproj': Success
+18:35:14.847 |I| Build                          | :25                            | Finish build part [1/1] for project 'Unity.2D.Animation.Runtime.Player.csproj': Success
+18:35:14.847 |I| Build                          | :25                            | Finish build project 'Unity.2D.Animation.Runtime.Player.csproj': Success
+18:35:14.892 |I| Build                          | :13                            | Finish build part [1/1] for project 'Unity.Mathematics.Editor.csproj': Success
+18:35:14.892 |I| Build                          | :13                            | Finish build project 'Unity.Mathematics.Editor.csproj': Success
+18:35:14.942 |I| Build                          | :19                            | Finish build part [1/1] for project 'Unity.2D.SpriteShape.Runtime.csproj': Success
+18:35:14.942 |I| Build                          | :19                            | Finish build project 'Unity.2D.SpriteShape.Runtime.csproj': Success
+18:35:14.948 |I| BuildQueue                     | :19                            | Build layer: Unity.2D.SpriteShape.Editor.csproj
+18:35:14.948 |I| Build                          | :19                            | Start build 'Unity.2D.SpriteShape.Editor.csproj' with 1 target frameworks
+18:35:14.949 |I| Build                          | :19                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:14.986 |I| Build                          | :13                            | Finish build part [1/1] for project 'Unity.2D.Animation.Runtime.csproj': Success
+18:35:14.987 |I| Build                          | :13                            | Finish build project 'Unity.2D.Animation.Runtime.csproj': Success
+18:35:15.001 |I| BuildQueue                     | :13                            | Build layer: Unity.2D.Animation.Editor.csproj, Assembly-CSharp.Player.csproj
+18:35:15.001 |I| Build                          | :13                            | Start build 'Unity.2D.Animation.Editor.csproj' with 1 target frameworks
+18:35:15.002 |I| Build                          | :13                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:15.002 |I| Build                          | :13                            | Start build 'Assembly-CSharp.Player.csproj' with 1 target frameworks
+18:35:15.002 |I| Build                          | :13                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:15.045 |I| Build                          | :6                             | Finish build part [1/1] for project 'Unity.2D.SpriteShape.Editor.csproj': Success
+18:35:15.045 |I| Build                          | :6                             | Finish build project 'Unity.2D.SpriteShape.Editor.csproj': Success
+18:35:15.116 |I| Build                          | :4                             | Finish build part [1/1] for project 'Assembly-CSharp.Player.csproj': Success
+18:35:15.116 |I| Build                          | :4                             | Finish build project 'Assembly-CSharp.Player.csproj': Success
+18:35:15.171 |I| Build                          | :19                            | Finish build part [1/1] for project 'Unity.2D.Animation.Editor.csproj': Success
+18:35:15.171 |I| Build                          | :19                            | Finish build project 'Unity.2D.Animation.Editor.csproj': Success
+18:35:15.183 |I| BuildQueue                     | :19                            | Build layer: Unity.2D.Psdimporter.Editor.csproj, Unity.2D.IK.Editor.csproj
+18:35:15.183 |I| Build                          | :19                            | Start build 'Unity.2D.Psdimporter.Editor.csproj' with 1 target frameworks
+18:35:15.183 |I| Build                          | :19                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:15.183 |I| Build                          | :19                            | Start build 'Unity.2D.IK.Editor.csproj' with 1 target frameworks
+18:35:15.184 |I| Build                          | :19                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:15.217 |I| Build                          | :25                            | Finish build part [1/1] for project 'Unity.2D.PixelPerfect.Player.csproj': Success
+18:35:15.218 |I| Build                          | :25                            | Finish build project 'Unity.2D.PixelPerfect.Player.csproj': Success
+18:35:15.264 |I| Build                          | :6                             | Finish build part [1/1] for project 'Unity.2D.IK.Editor.csproj': Success
+18:35:15.264 |I| Build                          | :6                             | Finish build project 'Unity.2D.IK.Editor.csproj': Success
+18:35:15.320 |I| Build                          | :27                            | Finish build part [1/1] for project 'Unity.2D.Psdimporter.Editor.csproj': Success
+18:35:15.320 |I| Build                          | :27                            | Finish build project 'Unity.2D.Psdimporter.Editor.csproj': Success
+18:35:15.326 |I| BuildQueue                     | :27                            | Build layer: Assembly-CSharp.csproj
+18:35:15.326 |I| Build                          | :27                            | Start build 'Assembly-CSharp.csproj' with 1 target frameworks
+18:35:15.327 |I| Build                          | :27                            | Targets for build: _CheckForInvalidConfigurationAndPlatform;ResolveReferences;ResolveProjectReferences;ResolveAssemblyReferences;ResolveComReferences;ResolveNativeReferences;ResolveSdkReferences;ResolveFrameworkReferences;DesignTimeMarkupCompilation;Compile;CoreCompile;XamlMarkupCompilePass1
+18:35:15.359 |I| Build                          | :25                            | Finish build part [1/1] for project 'Unity.2D.IK.Runtime.Player.csproj': Success
+18:35:15.359 |I| Build                          | :25                            | Finish build project 'Unity.2D.IK.Runtime.Player.csproj': Success
+18:35:15.436 |I| Build                          | :15                            | Finish build part [1/1] for project 'Assembly-CSharp.csproj': Success
+18:35:15.437 |I| Build                          | :15                            | Finish build project 'Assembly-CSharp.csproj': Success
+18:35:15.475 |I| Build                          | :15                            | Finish build part [1/1] for project 'Unity.TextMeshPro.Player.csproj': Success
+18:35:15.475 |I| Build                          | :15                            | Finish build project 'Unity.TextMeshPro.Player.csproj': Success
+18:35:15.512 |I| Build                          | :4                             | Finish build part [1/1] for project 'Unity.Timeline.Player.csproj': Success
+18:35:15.512 |I| Build                          | :4                             | Finish build project 'Unity.Timeline.Player.csproj': Success
+18:35:15.560 |I| Build                          | :15                            | Finish build part [1/1] for project 'Unity.2D.Animation.Triangle.Runtime.Player.csproj': Success
+18:35:15.560 |I| Build                          | :15                            | Finish build project 'Unity.2D.Animation.Triangle.Runtime.Player.csproj': Success
+18:35:15.599 |I| Build                          | :14                            | Finish build part [1/1] for project 'Unity.Mathematics.Player.csproj': Success
+18:35:15.599 |I| Build                          | :14                            | Finish build project 'Unity.Mathematics.Player.csproj': Success
+18:35:15.690 |I| ProjectModel                   | RequestBuilder thread:7        | Reloading has finished, statistic: 
+	Total: 3.81 sec
+	Binding: 0.50 sec
+	Evaluation: 0.71 sec
+18:35:15.690 |I| Build                          | :3                             | Build succeeded.
+20:54:27.570 |I| Core                           | RequestBuilder thread:7        | Msbuild session 'ProjectModelSessionHost' was terminated
+20:54:27.572 |I| Core                           | RequestBuilder thread:7        | Connection lost, kill msbuild

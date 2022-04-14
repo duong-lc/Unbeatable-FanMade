@@ -52,11 +52,11 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Plugins\Editor\JetBrains.RiderFlow\2020.2\ProgressManager.cs" />
-     <Compile Include="Assets\Plugins\Editor\JetBrains.RiderFlow\2020.2\EntryPoint.cs" />
-     <Compile Include="Assets\Plugins\Editor\JetBrains.RiderFlow\2020.2\RecentFilesCache.cs" />
-     <Compile Include="Assets\Plugins\Editor\JetBrains.RiderFlow\2020.2\SearchWindowSettings.cs" />
-     <None Include="Assets\Plugins\Editor\JetBrains.RiderFlow\2020.2\JetBrains.Frontend.2020.2.asmdef" />
+     <Compile Include="Assets\Plugins\Plugins\Editor\JetBrains.RiderFlow\2020.2\RecentFilesCache.cs" />
+     <Compile Include="Assets\Plugins\Plugins\Editor\JetBrains.RiderFlow\2020.2\ProgressManager.cs" />
+     <Compile Include="Assets\Plugins\Plugins\Editor\JetBrains.RiderFlow\2020.2\SearchWindowSettings.cs" />
+     <Compile Include="Assets\Plugins\Plugins\Editor\JetBrains.RiderFlow\2020.2\EntryPoint.cs" />
+     <None Include="Assets\Plugins\Plugins\Editor\JetBrains.RiderFlow\2020.2\JetBrains.Frontend.2020.2.asmdef" />
  <Reference Include="UnityEngine">
  <HintPath>E:/Unity/2020.3.18f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -298,7 +298,7 @@
  <HintPath>E:/Unity/2020.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="JetBrains.RiderFlow.Repacked">
- <HintPath>C:/_UnityProjects/Unbeatable-Fanmade/Unbeatable-FanMade/Assets/Plugins/Editor/JetBrains.RiderFlow/JetBrains.RiderFlow.Repacked.dll</HintPath>
+ <HintPath>C:/_UnityProjects/Unbeatable-Fanmade/Unbeatable-FanMade/Assets/Plugins/Plugins/Editor/JetBrains.RiderFlow/JetBrains.RiderFlow.Repacked.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
  <HintPath>C:/_UnityProjects/Unbeatable-Fanmade/Unbeatable-FanMade/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
