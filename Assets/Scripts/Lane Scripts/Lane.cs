@@ -129,7 +129,6 @@ public class Lane : MonoBehaviour
                 //if current song time reaches point to spawn a note
                 if (SongManager.GetAudioSourceTime() >= noteNormalCast.timeStamp - _travelTime)
                 {
-                    //print($"{gameObject.name}");
                     //Spawn a note
                     var noteObj = Instantiate(_DefaultNotePrefab, transform);
                     //updating the game object ref in the note

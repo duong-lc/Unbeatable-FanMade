@@ -116,7 +116,7 @@ public class NoteSlider : NoteBaseKillable
             {
                 Destroy(startNote);
             }
-            else if( startNote != null)//otherwise, the position of note will be lerped between the spawn position and despawn position based on the alpha
+            else if(startNote)//otherwise, the position of note will be lerped between the spawn position and despawn position based on the alpha
             {
                 startNote.transform.position = Vector3.Lerp(_startPosStartNote, _endPosStartNote, alphaStart);
                 //activate the note and show the line renderer
@@ -140,7 +140,7 @@ public class NoteSlider : NoteBaseKillable
             //divide that with the time between the spawn Y and despawn Y to get the alpha position of the note relative to its total travel dist
             float alphaEnd = (float)(timeSinceEndNoteInstantiated / (midiData.noteTime * 2));
             
-            if (endNote != null)//otherwise, the position of note will be lerped between the spawn position and despawn position based on the alpha
+            if (endNote)//otherwise, the position of note will be lerped between the spawn position and despawn position based on the alpha
             {
                 //print($"alphaEnd = {alphaEnd}");
                 if (Math.Abs(endNote.transform.position.x - _sliderHitPointX) > 0 && alphaEnd < 0.5f)
@@ -152,8 +152,6 @@ public class NoteSlider : NoteBaseKillable
                 {
                     _canMoveEndNote = false;
                     endNote.transform.position = startNote.transform.position;
-                    // foreach(var line in _lineControllers)
-                    //     line.gameObject.SetActive(false);
                 }
             }
             // // //if it reaches the despawn position
